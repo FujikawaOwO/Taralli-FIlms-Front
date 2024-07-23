@@ -2,7 +2,8 @@
 export interface Film
 
 {
-titolo:string;
+    id:number;
+    titolo:string;
     genere:string;
     regista:string;
     trama:string;
